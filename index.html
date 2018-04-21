@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Startup</title>
+  <title>Julius Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -56,7 +56,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <img id="myImage" class="img-fluid" src="img/mypic.jpg">
+          <img id="myImage" class="img-fluid" src="assets/mypic.jpg">
         </div>
         <div class="col-md-8 col-sm-12" id="aboutcontents">
           <h2>Julius Regalado</h2>
@@ -64,18 +64,36 @@
           <hr class="left_hr">
           <!-- <h3>About Me</h3> -->
           <p>
-            I am a determined detail-oriented web developer with a roll up your sleeves attitude. A passionate programmer that learns quick, care about his work and enjoy doing it.
-            I am addicted to the satisfaction when solving a logic or problem. I always demonstrate discipline and patience to accomplish my goals, professionally and personally.
+            A dedicated and hardworking Navy Veteran seeking to use combined web development expertise and artistic creativity
+            to build dynamic and intricate web applications. A passionate programmer that learns quick, cares about his work
+            and enjoys doing it. I always demonstrate patience and discipline when accomplishing goals professionally and personally.
           </p>
           <br/>
           <div class="col-lg-12 my-auto container">
-            <div class="btn btn-info"><i class="icon ion-social-github"></i> github </div>
-            <div class="btn btn-info"><i class="icon ion-document-text"></i> resume </div>
-            <div class="btn btn-info"><i class="icon ion-social-linkedin"></i> linkedin </div>
+            <a class="btn btn-info" target="_blank" href="https://github.com/juliusregalado"><i class="icon ion-social-github"></i> github </a>
+            <a class="btn btn-info" href="#" data-toggle="modal" data-target="#myModal"><i class="icon ion-document-text"></i> resume </a>
+            <a class="btn btn-info" target="_blank" href="https://www.linkedin.com/in/juliusregalado/"><i class="icon ion-social-linkedin"></i> linkedin </a>
           </div>
         </div>
       </div>
     </div>
+    <!-- CV Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title mr-auto">Resume</h4>
+          </div>
+          <div class="modal-body">
+            <embed src="assets/Resume.pdf" frameborder="0" width="100%" height="600px">
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container" id="skills_section">
       <hr>
       <div class="row">
@@ -135,7 +153,7 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div>
   </section>
 
   <section id="projects">
@@ -148,7 +166,7 @@
       </div>
     </div>
 
-    <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg">
+    <!-- <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg"> -->
     <div id="carousel">
       <figure id="spinner" class="container">
         <img src="wanaka-tree.jpg" alt>

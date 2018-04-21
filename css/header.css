@@ -46,7 +46,7 @@ nav.navbar.navbar-dark {
 
 header.startup {
   background-position: center;
-  background-image: url("../img/header.jpg");
+  background-image: url("../assets/header.jpg");
   background-size: cover;
   height: 100%;
 }
