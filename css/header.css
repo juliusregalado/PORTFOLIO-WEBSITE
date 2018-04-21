@@ -1,0 +1,62 @@
+
+nav.navbar.navbar-dark {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #434343, #000000);
+  background: linear-gradient(to top, #282d32, #000000);
+  border-bottom: .5px solid #e50000;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  text-transform: uppercase;
+  transition: .1s;
+}
+
+.navbar-brand {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+  color: red;
+  font-size: 1.1em;
+}
+
+.navigation-clean.navbar .navbar-nav > li > a {
+  padding-left:18px;
+  padding-right:18px;
+}
+
+.navbar-inverse .navbar-brand {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Showcase Area */
+
+header.startup {
+  background-position: center;
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup h1 {
+  font-size: 2rem;
+  margin-bottom: 190px;
+}
+
+div.btn.btn-info.intro-button {
+  width: auto;
+  background-color: #000000;
+}
