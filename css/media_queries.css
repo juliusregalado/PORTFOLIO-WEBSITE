@@ -1,30 +1,44 @@
+@media (max-width:560px){
+ .skillbar_container {
+   width: 90%;
+   margin: 10px auto;
+ }
+}
 
-@media (max-width:500px) {
+@media (max-width:900px) {
   header.startup h1 {
     font-size: 1.5rem;
     margin-bottom: 140px;
     word-spacing: normal;
     letter-spacing: 4px;
-  },
+  }
   div.btn.btn-info.intro-button {
     width: 100%;
     background-color: #000000;
     padding-top: 40px;
-  },
+  }
   div#skills_banner > ul > li {
     background: linear-gradient(to right, rgba(229, 0, 0, 0.75), rgba(229, 0, 0, 0.15), rgba(201, 207, 216, 0));
     font-size: 1.3rem;
     list-style: none;
     width: 70px;
+    text-align: center;
     display: inline;
     letter-spacing: 2rem;
     margin: 0;
     padding: 0;
-  },
+  }
   .skills {
     padding-right: 20px;
-    font-size: 5px;
     color: white;
+  }
+  .skillbar_container {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .btn.btn-info.about-section-button {
+    width: 80%;
+    margin-top: 10px;
   }
 }
 
@@ -32,7 +46,7 @@
   header.startup h1 {
     font-size: 2rem;
     margin-bottom: 260px;
-  },
+  }
   div.btn.btn-info.intro-button {
     width: auto;
     background-color: #000000;

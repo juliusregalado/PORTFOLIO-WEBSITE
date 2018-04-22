@@ -70,9 +70,9 @@
           </p>
           <br/>
           <div class="col-lg-12 my-auto container">
-            <a class="btn btn-info" target="_blank" href="https://github.com/juliusregalado"><i class="icon ion-social-github"></i> github </a>
-            <a class="btn btn-info" href="#" data-toggle="modal" data-target="#myModal"><i class="icon ion-document-text"></i> resume </a>
-            <a class="btn btn-info" target="_blank" href="https://www.linkedin.com/in/juliusregalado/"><i class="icon ion-social-linkedin"></i> linkedin </a>
+            <a class="btn btn-info about-section-button" target="_blank" href="https://github.com/juliusregalado"><i class="icon ion-social-github"></i> github </a>
+            <a class="btn btn-info about-section-button" href="#" data-toggle="modal" data-target="#myModal"><i class="icon ion-document-text"></i> resume </a>
+            <a class="btn btn-info about-section-button" target="_blank" href="https://www.linkedin.com/in/juliusregalado/"><i class="icon ion-social-linkedin"></i> linkedin </a>
           </div>
         </div>
       </div>
@@ -161,32 +161,56 @@
       <div class="row">
         <div class="col-md-12" style="background-color:transparent;color:rgb(129,145,162);">
           <h1 class="text-center shadow">Projects</h1>
+          <hr>
           <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum risus nulla, mollis a sagittis auctor, maximus eget neque. Praesent eget diam placerat, rhoncus dolor in, aliquet dui.<br><br></p>
         </div>
       </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">High Low Card Game</h5>
+            </div>
+            <a href="https://juliusregalado.github.io/Hi-Lo-Game-Project/" target="_blank">
+              <img class="card-img-top img-thumbnail" src="assets/hilo.png" alt="Card Game">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Chef's Diary</h5>
+            </div>
+            <a href="https://chefsdiary.herokuapp.com/" target="_blank">
+              <img class="card-img-top img-thumbnail" src="assets/chefsdiary.png" alt="Chef's Diary">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Stocks Tracker</h5>
+            </div>
+            <a href="https://julius-stocks-tracker.herokuapp.com/" target="_blank">
+              <img class="card-img-top img-thumbnail" src="assets/stocks-app.png" alt="stocks-app">
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <!-- <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg"> -->
-    <div id="carousel">
-      <figure id="spinner" class="container">
-        <img src="wanaka-tree.jpg" alt>
-        <img src="still-lake.jpg" alt>
-        <img src="pink-milford-sound.jpg" alt>
-        <img src="paradise.jpg" alt>
-        <img src="morekai.jpg" alt>
-        <img src="milky-blue-lagoon.jpg" alt>
-        <img src="lake-tekapo.jpg" alt>
-        <img src="milford-sound.jpg" alt>
-      </figure>
-    </div>
-    <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
-    <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
   </section>
 
   <section id="contact">
     <div class="container center">
       <h2 class="shadow"><strong>Contact</strong></h2>
+      <hr>
        <p class="center">You are welcome to contact me about anything. Please fill the form below.</p>
+       <div class="contact-buttons">
+         <a class="btn btn-li btn-block" href="https://www.linkedin.com/in/juliusregalado/" target="_blank"><i class="fa fa-linkedin left"></i> Linkedin</a>
+         <a class="btn btn-git btn-block" href="https://github.com/juliusregalado" target="_blank"><i class="fa fa-github left"></i> Github</a>
+         <a class="btn btn-email btn-block" href="mailto:jreg03@outlook.com" target="_blank"><i class="fa fa-envelope left"></i> Email</a>
+       </div>
        <form action="mailto:jreg03@outlook.com" method="post" enctype="text/plain">
          <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -224,32 +248,34 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-3 item">
-          <h3>Links</h3>
+          <h3>Navigate</h3>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#index">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <div class="col-sm-6 col-md-3 item">
-          <h3>About</h3>
+          <h3>Links</h3>
           <ul>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Careers</a></li>
+            <li><a target="_blank" href="https://github.com/juliusregalado">Github</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/juliusregalado/">Linkedin</a></li>
+            <li><a target="_blank" href="https://docs.google.com/document/d/1FYtG29ZEf3IaK4XquyY9mNqUjbNDqecQhH2vDkBBkPQ/edit">Resume</a></li>
+            <li><a target="_blank" href="https://juliusregalado.github.io/Hi-Lo-Game-Project/">High Low Card Game</a></li>
+            <li><a target="_blank" href="https://chefsdiary.herokuapp.com/">Chef's Diary</a></li>
+            <li><a target="_blank" href="https://julius-stocks-tracker.herokuapp.com/">Stocks Tracker</a></li>
+
           </ul>
         </div>
         <div class="col-md-6 item text">
-            <h3>Company Name</h3>
-            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+          <h3>Thanks!</h3>
+          <p>Thank you for taking the time visiting my page. I look forward on doing business with you in the future.</p>
         </div>
+      </div>
         <div class="col item social">
-          <a href="#"><i class="icon ion-social-facebook"></i></a>
-          <a href="#"><i class="icon ion-social-twitter"></i></a>
-          <a href="#"><i class="icon ion-social-snapchat"></i></a>
-          <a href="#"><i class="icon ion-social-linkedin"></i></a>
-          <a href="#"><i class="icon ion-social-github"></i></a>
+          <a href="https://www.linkedin.com/in/juliusregalado/"><i class="icon ion-social-linkedin"></i></a>
+          <a href="https://github.com/juliusregalado"><i class="icon ion-social-github"></i></a>
         </div>
       </div>
     </div>
