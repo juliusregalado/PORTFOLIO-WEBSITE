@@ -12,11 +12,6 @@
     word-spacing: normal;
     letter-spacing: 4px;
   }
-  div.btn.btn-info.intro-button {
-    width: 100%;
-    background-color: #000000;
-    padding-top: 40px;
-  }
   div#skills_banner > ul > li {
     background: linear-gradient(to right, rgba(229, 0, 0, 0.75), rgba(229, 0, 0, 0.15), rgba(201, 207, 216, 0));
     font-size: 1.3rem;
