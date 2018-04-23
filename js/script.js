@@ -9,7 +9,8 @@ $(document).ready(function(){
 		}
 */
 
-	  // Add smooth scrolling to all links
+$(document).ready(function(){
+  // Add smooth scrolling to all links
   $("a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -28,15 +29,3 @@ $(document).ready(function(){
     } // End if
   });
 });
-
-// Carousel
-let angle = 0;
-function galleryspin(sign) {
-  let spinner = document.querySelector("#spinner");
-  if (!sign) {
-    angle = angle + 45;
-  } else {
-    angle = angle - 45;
-  }
-  spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); -moz-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");
-}

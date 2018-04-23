@@ -11,6 +11,10 @@ body {
   font-family: 'Reem Kufi', sans-serif;
 }
 
+p {
+  font-size: 17px;
+}
+
 hr {
   height: 1px;
   /* background-image: linear-gradient(to right, rgba(201, 207, 216, 0), rgba(201, 207, 216, 0.55), rgba(201, 207, 216, 0)); */
@@ -93,6 +97,10 @@ img#myImage.img-fluid {
   background-color: #892d2e;
   border-left: 10px solid #892d2e;
   border-bottom: none;
+}
+
+div.btn.btn-info.intro-button > a {
+  color: #e50000;
 }
 
 /*  Skills Section  */
