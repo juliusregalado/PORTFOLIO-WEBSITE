@@ -103,6 +103,9 @@ div.btn.btn-info.intro-button > a {
   color: #e50000;
 }
 
+.muted {
+  font-size: 15px;
+}
 /*  Skills Section  */
 {box-sizing:border-box}
 
