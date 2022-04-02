@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Julius Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/ionicons.min.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/media_queries.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-dark navbar-expand-md navigation-clean navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#index"><span class="highlight">Julius' </span> Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcol-1" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item" role="presentation"><a class="nav-item nav-link active" href="#index">Home</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-item nav-link" href="#about">About</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-item nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-item nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="startup text-center text-white d-flex" id="index">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-12 my-auto">
+          <h1 class="text-uppercase shadow">
+            <strong>welcome to my page</strong>
+          </h1>
+        </div>
+        <div class="col-lg-12 my-auto">
+          <div class="btn btn-info intro-button"><a href="#about">TAKE ME DOWN </a><i class="fa fa-caret-down" aria-hidden="true"></i> </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img id="myImage" class="img-fluid" src="assets/mypic.jpg">
+        </div>
+        <div class="col-md-8 col-sm-12" id="aboutcontents">
+          <h2>Julius Regalado</h2>
+          <h4>Full Stack Web Developer</h4>
+          <hr class="left_hr">
+          <!-- <h3>About Me</h3> -->
+          <p>
+            A dedicated and hardworking Navy Veteran seeking to use combined web development expertise and artistic creativity
+            to build dynamic and intricate web applications. A passionate programmer that learns quick, cares about his work
+            and enjoys doing it. I always demonstrate patience and discipline when accomplishing goals professionally and personally.
+          </p>
+          <br/>
+          <div class="col-lg-12 my-auto container">
+            <a class="btn btn-info about-section-button" target="_blank" href="https://github.com/juliusregalado"><i class="icon ion-social-github"></i> github </a>
+            <a class="btn btn-info about-section-button" href="#" data-toggle="modal" data-target="#myModal"><i class="icon ion-document-text"></i> resume </a>
+            <a class="btn btn-info about-section-button" target="_blank" href="https://www.linkedin.com/in/juliusregalado/"><i class="icon ion-social-linkedin"></i> linkedin </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CV Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title mr-auto">Resume</h4>
+          </div>
+          <div class="modal-body">
+            <embed src="assets/Julius Regalado.pdf" frameborder="0" width="100%" height="600px">
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="skills_section">
+      <hr>
+      <div class="row">
+        <div class="col-md-1 col-sm-2" id="skills_banner">
+          <ul>
+            <li>S</li>
+            <li>K</li>
+            <li>I</li>
+            <li>L</li>
+            <li>L</li>
+            <li>S</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Front End</h4>
+          <div class="skillbar_container">
+            <div class="skills html"><span class="skill">HTML</span></div>
+          </div>
+          <div class="skillbar_container">
+            <div class="skills css"><span class="skill">CSS</span></div>
+          </div>
+          <div class="skillbar_container">
+            <div class="skills js"><span class="skill">Javascript</span></div>
+          </div>
+          <div class="skillbar_container">
+            <div class="skills jquery"><span class="skill">Jquery</span></div>
+          </div>
+          <div class="skillbar_container">
+            <div class="skills react"><span class="skill">React</span></div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Back End</h4>
+          <div class="skillbar_container">
+            <div class="skills node"><span class="skill">NodeJs</span></div>
+          </div>
+          <div class="skillbar_container">
+            <div class="skills express"><span class="skill">Express</span></div>
+          </div>
+          <div class="skillbar_container">
+            <div class="skills ruby"><span class="skill">Ruby</span></div>
+          </div>
+          <div class="skillbar_container">
+            <div class="skills rails"><span class="skill">Ruby on Rails</span></div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-10">
+          <h4>Database</h4>
+          <div class="skillbar_container">
+            <div class="skills postgresql"><span class="skill">PostgreSQL</span></div>
+          </div>
+          <div class="skillbar_container">
+            <div class="skills my_sql"><span class="skill">MySQL</span></div>
+          </div>
+          <div class="skillbar_container">
+            <div class="skills sql"><span class="skill">SQL</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" style="background-color:transparent;color:rgb(129,145,162);">
+          <h1 class="text-center shadow">Projects</h1>
+          <hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum risus nulla, mollis a sagittis auctor, maximus eget neque.
+            Praesent eget diam placerat, rhoncus dolor in, aliquet dui.
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">High Low Card Game</h5>
+            </div>
+            <a href="https://juliusregalado.github.io/Hi-Lo-Game-Project/" target="_blank">
+              <img class="card-img-top img-thumbnail" src="assets/hilo.png" alt="Card Game">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Chef's Diary</h5>
+            </div>
+            <a href="https://chefsdiary.herokuapp.com/" target="_blank">
+              <img class="card-img-top img-thumbnail" src="assets/chefsdiary.png" alt="Chef's Diary">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Split Landing Page</h5>
+            </div>
+            <a href="http://split-landing-page.bitballoon.com/" target="_blank">
+              <img class="card-img-top img-thumbnail" src="assets/split.png" alt="Split Landing">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Stocks Tracker</h5>
+            </div>
+            <a href="https://julius-stocks-tracker.herokuapp.com/" target="_blank">
+              <img class="card-img-top img-thumbnail" src="assets/stocks-app.png" alt="stocks-app">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Dev's Life</h5>
+            </div>
+            <a href="https://devslifesocial.herokuapp.com/" target="_blank">
+              <img class="card-img-top img-thumbnail" src="assets/devslife.png" alt="Dev's Life">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Petsy<span class="muted">(not yet deployed)</span></h5>
+            </div>
+            <a href="#">
+              <img class="card-img-top img-thumbnail" src="assets/petsyyyy.png" alt="petsy">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container center">
+      <h2 class="shadow"><strong>Contact</strong></h2>
+      <hr>
+       <div class="contact-buttons">
+         <a class="btn btn-li btn-block" href="https://www.linkedin.com/in/juliusregalado/" target="_blank"><i class="fa fa-linkedin left"></i> Linkedin</a>
+         <a class="btn btn-git btn-block" href="https://github.com/juliusregalado" target="_blank"><i class="fa fa-github left"></i> Github</a>
+         <a class="btn btn-email btn-block" href="mailto:jreg03@outlook.com" target="_blank"><i class="fa fa-envelope left"></i> Email</a>
+       </div>
+       <form action="mailto:jreg03@outlook.com" method="post" enctype="text/plain">
+         <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div class="form-group">
+                 <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Name"> </div>
+            </div>
+           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+             <div class="form-group">
+               <label for="exampleInputEmail2">Email</label>
+               <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+             </div>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-lg-12">
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="Subject"> </div>
+                <div>
+                  <textarea class="form-control" rows="5"> </textarea>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-xs-12">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+                </div>
+            </div>
+         </div>
+      </form>
+    </div>
+  </section>
+
+  <div class="footer-dark" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3 item">
+          <h3>Navigate</h3>
+          <ul>
+            <li><a href="#index">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-3 item">
+          <h3>Links</h3>
+          <ul>
+            <li><a target="_blank" href="https://github.com/juliusregalado">Github</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/juliusregalado/">Linkedin</a></li>
+            <li><a target="_blank" href="https://docs.google.com/document/d/1FYtG29ZEf3IaK4XquyY9mNqUjbNDqecQhH2vDkBBkPQ/edit">Resume</a></li>
+            <li><a target="_blank" href="https://juliusregalado.github.io/Hi-Lo-Game-Project/">High Low Card Game</a></li>
+            <li><a target="_blank" href="https://chefsdiary.herokuapp.com/">Chef's Diary</a></li>
+            <li><a target="_blank" href="https://julius-stocks-tracker.herokuapp.com/">Stocks Tracker</a></li>
+
+          </ul>
+        </div>
+        <div class="col-md-6 item text">
+          <h3>Thanks!</h3>
+          <p>Thank you for taking the time visiting my page. I look forward on doing business with you in the future.</p>
+        </div>
+      </div>
+        <div class="col item social">
+          <a href="https://www.linkedin.com/in/juliusregalado/"><i class="icon ion-social-linkedin"></i></a>
+          <a href="https://github.com/juliusregalado"><i class="icon ion-social-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <footer id="fixed-footer">
+      <p><span class="marker"><span class="highlight">Julius'</span> Portfolio</span>, Copyright &copy; 2018 </p>
+    </footer>
+  </div>
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
